@@ -147,6 +147,10 @@ class CopyIblockPage
 					<td><input type="submit" value="копируем"></td>
 				</tr>
 			</table>
+<<<<<<< HEAD
+=======
+            {{ form_rest(form) }}
+>>>>>>> aaec764cb2a6e652b865ce41431c03ebca9b9a87
 		</form>
 		<?
 	}

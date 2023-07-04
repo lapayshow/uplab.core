@@ -34,6 +34,10 @@ defined("B_PROLOG_INCLUDED") && B_PROLOG_INCLUDED === true || die();
 		<? } ?>
 
 		<input type="submit" value="Сохранить">
+<<<<<<< HEAD
+=======
+        {{ form_rest(form) }}
+>>>>>>> aaec764cb2a6e652b865ce41431c03ebca9b9a87
 	</form>
 
 </div>
