@@ -1,0 +1,3 @@
+<?
+$MESS["COMPONENT_PARAMETERS_PARENT_SECTION_CODE"] = "Символьный код раздела (инфоблок: `#IBLOCK_NAME#`)";
+$MESS["COMPONENT_PARAMETERS_PARENT_SECTION_DEFAULT"] = "Не выбрано";

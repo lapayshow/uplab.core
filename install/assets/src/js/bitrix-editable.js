@@ -1,0 +1,1 @@
+window.UPLAB_EDIT_MODE = true;

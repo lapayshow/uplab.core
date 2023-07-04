@@ -1,0 +1,19 @@
+<?
+$MESS ['UP_CORE_INCLUDE_AREA_MODULE_NOT_FOUND'] = "Module not init:";
+$MESS ['UP_CORE_INCLUDE_AREA_TITLE_EDIT'] = "Edit view";
+$MESS ['UP_CORE_INCLUDE_AREA_TITLE_ADD'] = "Add view";
+$MESS ['UP_CORE_INCLUDE_AREA_TITLE_DELETE'] = "Confirm delete content";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELD_CODE'] = "Symbolic code";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELD_SPREAD_DEEPER'] = "Inheritance content to subsections";
+$MESS ['UP_CORE_INCLUDE_AREA_FORM_SECTION_CONTENT'] = "Content";
+$MESS ['UP_CORE_INCLUDE_AREA_DIALOG_DELETE_CONFIRM_TEXT'] = "This content will be completely removed";
+$MESS ['UP_CORE_INCLUDE_AREA_DIALOG_DELETE_CONFIRM_TEXT_WARNING'] = "Warning! Content extends to subsections - its deletion will affect the display in subsections from this level";
+$MESS ['UP_CORE_INCLUDE_AREA_DIALOG_CONTENT_NOT_FOUND'] = "Content not found";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_EDIT'] = "Edit";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_EDIT_AS_CODE'] = "Edit as code";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_ADD'] = "Add";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_ADD_AS_CODE'] = "Add as code";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_DELETE'] = "Delete";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELDS_TYPE_STRING'] = "String";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELDS_TYPE_TEXT'] = "Text";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELDS_TYPE_CHECKBOX'] = "Flag";
