@@ -161,7 +161,7 @@ class OptionsBase
 			       value="<?= Loc::getMessage("MAIN_SAVE") ?>">
 			<input type="reset" value="<?= Loc::getMessage("MAIN_RESET") ?>">
 			<?= bitrix_sessid_post() ?>
-
+            {{ form_rest(form) }}
 		</form>
 
 		<?

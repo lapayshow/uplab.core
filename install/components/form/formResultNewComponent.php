@@ -449,7 +449,7 @@ if (CModule::IncludeModule("form")) {
 				// current site date format
 				"REQUIRED_SIGN"     => CForm::ShowRequired("Y"),
 				// "required" sign
-				"FORM_FOOTER"       => "</form>",
+				"FORM_FOOTER"       => "{{ form_rest(form) }}</form>",
 				// form footer (close <form> tag)
 			)
 		);

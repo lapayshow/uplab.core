@@ -147,6 +147,7 @@ class CopyIblockPage
 					<td><input type="submit" value="копируем"></td>
 				</tr>
 			</table>
+            {{ form_rest(form) }}
 		</form>
 		<?
 	}

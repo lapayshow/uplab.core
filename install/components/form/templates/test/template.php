@@ -34,7 +34,7 @@ defined("B_PROLOG_INCLUDED") && B_PROLOG_INCLUDED === true || die();
 		<? } ?>
 
 		<input type="submit" value="Сохранить">
-
+        {{ form_rest(form) }}
 	</form>
 
 </div>
