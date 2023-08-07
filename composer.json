@@ -1,0 +1,27 @@
+{
+    "name": "lapayshow/uplab.core",
+    "description": "Uplab Core Gpart (LOODSEN VERSION)",
+    "homepage": "https://github.com/lapayshow/uplab.core",
+    "type": "bitrix-module",
+    "keywords": [
+        "bitrix",
+        "uplab",
+        "loodsen version"
+    ],
+    "license": "MIT",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev",
+            "dev-v2": "2.0.x-dev"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "composer/installers": "~1",
+        "electrolinux/phpquery": "dev-master",
+        "twig/twig": "^1.0",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*"
+    }
+}

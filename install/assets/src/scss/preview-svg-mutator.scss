@@ -1,0 +1,51 @@
+@mixin imageStyles {
+  img[src$=".webp"],
+  img[src$=".svg"],
+  img[src$=".png"] {
+    @content;
+  }
+}
+
+.ml-list-cont .ml-item-cont,
+.bxfd-prev-cont td {
+  @include imageStyles {
+    --chess1: #bbced8;
+    --chess2: transparent;
+    --chess3: transparent;
+
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center center;
+    background-image: linear-gradient(45deg, var(--chess1) 25%, var(--chess2) 25%),
+    linear-gradient(-45deg, var(--chess1) 25%, var(--chess2) 25%),
+    linear-gradient(45deg, var(--chess2) 75%, var(--chess1) 75%),
+    linear-gradient(-45deg, var(--chess2) 75%, var(--chess1) 75%),
+    linear-gradient(0, var(--chess3), var(--chess3));
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+    background-repeat: repeat;
+  }
+}
+
+.bxfd-prev-cont td {
+  @include imageStyles {
+    height: 100%;
+    --chess1: #ccc;
+  }
+
+  @at-root #bxfd_selected_element_preview#{&} {
+    @include imageStyles {
+      --chess1: #eee;
+      --chess3: #888;
+    }
+  }
+}
+
+.ml-list-cont .ml-item-cont {
+  &.ml-item-cont-over {
+    @include imageStyles {
+      --chess1: #cfe0e9;
+      --chess3: #89a3b0;
+    }
+  }
+}

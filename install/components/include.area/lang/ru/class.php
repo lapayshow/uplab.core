@@ -1,0 +1,19 @@
+<?
+$MESS ['UP_CORE_INCLUDE_AREA_MODULE_NOT_FOUND'] = "Модуль не загружен:";
+$MESS ['UP_CORE_INCLUDE_AREA_TITLE_EDIT'] = "Редактировать область";
+$MESS ['UP_CORE_INCLUDE_AREA_TITLE_ADD'] = "Добавить область";
+$MESS ['UP_CORE_INCLUDE_AREA_TITLE_DELETE'] = "Подтвердите удаление контента";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELD_CODE'] = "Символьный код";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELD_SPREAD_DEEPER'] = "Наследование подразделам";
+$MESS ['UP_CORE_INCLUDE_AREA_FORM_SECTION_CONTENT'] = "Контент";
+$MESS ['UP_CORE_INCLUDE_AREA_DIALOG_DELETE_CONFIRM_TEXT'] = "Данный контент будет безвозвратно удален";
+$MESS ['UP_CORE_INCLUDE_AREA_DIALOG_DELETE_CONFIRM_TEXT_WARNING'] = "Внимание! Контент распространяется на подразделы - его удаление повлияет на отображение в подразделах от уровня";
+$MESS ['UP_CORE_INCLUDE_AREA_DIALOG_CONTENT_NOT_FOUND'] = "Контент не найден";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_EDIT'] = "Редактировать";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_EDIT_AS_CODE'] = "Редактировать как код";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_ADD'] = "Добавить";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_ADD_AS_CODE'] = "Добавить как код";
+$MESS ['UP_CORE_INCLUDE_AREA_MENU_DELETE'] = "Удалить";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELDS_TYPE_STRING'] = "Строка";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELDS_TYPE_TEXT'] = "Текст";
+$MESS ['UP_CORE_INCLUDE_AREA_FIELDS_TYPE_CHECKBOX'] = "Флаг";

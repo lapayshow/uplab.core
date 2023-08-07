@@ -1,0 +1,77 @@
+<div class="up-admin-configurator">
+
+
+    <div class="up-admin-configurator__container">
+        <div class="up-admin-configurator-logo">
+            <img src="https://uplab.ru/local/templates/main/img/uplab_fav_120x120.png"
+                 alt="Uplab logo">
+            <span>нтеграция <sup>2.0</sup></span>
+        </div>
+
+        <div class="up-admin-configurator__title">
+            Перед началом работы над проектом <br>выполните следующие действия
+        </div>
+    </div>
+
+
+    {% for STEP  in STEPS %}
+
+        <div class="up-admin-configurator__container">
+            <div class="up-admin-configurator__item {{ STEP.READY
+            ? 'is-checked'
+            : (STEP.READY is defined ? 'is-failed') }}">
+
+                <div class="up-admin-configurator__item-number">{{ loop.index }}</div>
+
+                {% if STEP.TITLE %}
+                    <div class="up-admin-configurator__item-title">{{ STEP.TITLE }}</div>
+                {% endif %}
+
+                {% if STEP.FIELDS %}
+
+                    <ul class="up-admin-configurator__item-list">
+                        {% for FIELD in STEP.FIELDS %}
+                            <li class="up-admin-configurator__item-{{ FIELD.TYPE|default('text') }}">
+                                {% if FIELD.TYPE == 'checkbox' %}
+                                    <label>
+                                        <span class="adm-list-control">
+                                            <input type="checkbox" class="adm-designed-checkbox"
+                                                   name="">
+                                            <span class="adm-designed-checkbox-label"></span>
+                                        </span>
+                                        {{ FIELD.LABEL }}
+                                    </label>
+                                {% elseif FIELD.TYPE == 'input' %}
+                                    <label>
+                                        <span style="display: block;">{{ FIELD.LABEL }}</span>
+                                        <input type="{{ FIELD.INPUT_TYPE|default('text') }}"
+                                               style="width: 300px;"
+                                               class=""
+                                               value=""/>
+                                    </label>
+                                {% elseif FIELD.TYPE == 'button' %}
+                                    <div style="">
+                                        <input type="button" class="adm-btn-green"
+                                               value="{{ FIELD.TEXT }}"/>
+                                    </div>
+                                {% elseif FIELD.TYPE == 'code' %}
+                                    <code class="up-admin-configurator__code"
+                                          contenteditable=true>{{ FIELD.TEXT }}</code>
+                                {% elseif FIELD.TEXT %}
+                                    <div class="up-admin-configurator__item-list-item">
+                                        <div class="text-msg">{{ FIELD.TEXT }}</div>
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                {% endif %}
+
+            </div>
+        </div>
+
+    {% endfor %}
+
+
+</div>
